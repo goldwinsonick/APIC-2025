@@ -1,0 +1,17 @@
+* NGSPICE file created from magic_and.ext - technology: sky130A
+
+.subckt magic_and A B OUT VP VN
+X0 a_0_0# B a_0_0# VN sky130_fd_pr__nfet_01v8 ad=0.63333u pd=3.93333u as=0.63333u ps=3.93333u w=1 l=0.15
+**devattr d=10000,300
+X1 OUT a_0_0# VP VP sky130_fd_pr__pfet_01v8 ad=2.835u pd=14.4u as=2.835u ps=14.4u w=3.15 l=0.15
+**devattr s=56700,1440 d=56700,1440
+X2 OUT a_0_0# VN VN sky130_fd_pr__nfet_01v8 ad=0.9u pd=5.8u as=0.9u ps=5.8u w=1 l=0.15
+**devattr s=18000,580 d=18000,580
+X3 VP B a_0_0# VP sky130_fd_pr__pfet_01v8 ad=2.835u pd=14.4u as=1.575u ps=7.3u w=3.15 l=0.15
+**devattr s=31500,730 d=56700,1440
+X4 a_0_0# A VN VN sky130_fd_pr__nfet_01v8 ad=0.63333u pd=3.93333u as=0.9u ps=5.8u w=1 l=0.15
+**devattr s=18000,580 d=10000,300
+X5 a_0_0# A VP VP sky130_fd_pr__pfet_01v8 ad=1.575u pd=7.3u as=2.835u ps=14.4u w=3.15 l=0.15
+**devattr s=56700,1440 d=31500,730
+.ends
+
