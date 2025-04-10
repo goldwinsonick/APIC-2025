@@ -33,4 +33,4 @@ plot v(IA) v(IB)+2 v(Y)+4
 "}
 C {lab_wire.sym} 100 -40 0 0 {name=p2 sig_type=std_logic lab=Y}
 C {sky130_fd_pr/corner.sym} 130 -110 0 0 {name=CORNER only_toplevel=false corner=tt}
-C {or_gate.sym} 0 -10 0 0 {name=x1}
+C {gs_xor.sym} 0 0 0 0 {name=x1}

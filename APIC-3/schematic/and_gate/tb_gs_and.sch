@@ -14,7 +14,6 @@ N -140 -100 -140 -80 {lab=GND}
 N -140 -20 -80 -20 {lab=IA}
 N 60 -10 100 -10 {lab=Y}
 N 100 -40 100 -10 {lab=Y}
-C {and_gate.sym} 40 10 0 0 {name=x1}
 C {vsource.sym} 0 -110 2 0 {name=V1 value=1.8 savecurrent=false}
 C {gnd.sym} 0 -160 2 0 {name=l1 lab=GND}
 C {gnd.sym} 0 60 0 0 {name=l2 lab=GND}
@@ -34,3 +33,4 @@ plot v(IA) v(IB)+2 v(Y)+4
 "}
 C {lab_wire.sym} 100 -40 0 0 {name=p2 sig_type=std_logic lab=Y}
 C {sky130_fd_pr/corner.sym} 130 -110 0 0 {name=CORNER only_toplevel=false corner=tt}
+C {gs_and.sym} 40 10 0 0 {name=x1}
