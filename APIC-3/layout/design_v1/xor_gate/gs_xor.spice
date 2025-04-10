@@ -1,0 +1,29 @@
+* NGSPICE file created from gs_xor.ext - technology: sky130A
+
+.subckt gs_xor A B OUT VP VN
+X0 a_780_0# a_20_0# OUT VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.45 ps=2.9 w=1 l=0.15
+**devattr s=18000,580 d=10000,300
+X1 VN a_860_260# a_780_0# VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.25 ps=1.5 w=1 l=0.15
+**devattr s=10000,300 d=18000,580
+X2 VP a_860_260# a_780_550# VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=0.75 ps=3.5 w=3 l=0.15
+**devattr s=30000,700 d=54000,1380
+X3 a_780_550# A OUT VP sky130_fd_pr__pfet_01v8 ad=0.75 pd=3.5 as=1.35 ps=6.9 w=3 l=0.15
+**devattr s=54000,1380 d=30000,700
+X4 a_20_0# A VP VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=1.35 ps=6.9 w=3 l=0.15
+**devattr s=54000,1380 d=54000,1380
+X5 VP B a_860_260# VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=1.35 ps=6.9 w=3 l=0.15
+**devattr s=54000,1380 d=54000,1380
+X6 OUT B a_380_550# VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=0.75 ps=3.5 w=3 l=0.15
+**devattr s=30000,700 d=54000,1380
+X7 a_380_0# B VN VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.45 ps=2.9 w=1 l=0.15
+**devattr s=18000,580 d=10000,300
+X8 a_380_550# a_20_0# VP VP sky130_fd_pr__pfet_01v8 ad=0.75 pd=3.5 as=1.35 ps=6.9 w=3 l=0.15
+**devattr s=54000,1380 d=30000,700
+X9 OUT A a_380_0# VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.25 ps=1.5 w=1 l=0.15
+**devattr s=10000,300 d=18000,580
+X10 VN B a_860_260# VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+**devattr s=18000,580 d=18000,580
+X11 a_20_0# A VN VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+**devattr s=18000,580 d=18000,580
+.ends
+
