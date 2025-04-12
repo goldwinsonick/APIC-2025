@@ -1,0 +1,27 @@
+* NGSPICE file created from goldwin_dff.ext - technology: sky130A
+
+.subckt goldwin_nand A B Y VP VN a_30_0#
+X0 Y B a_30_0# VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.25 ps=1.5 w=1 l=0.15
+X1 a_30_0# A VN VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.45 ps=2.9 w=1 l=0.15
+X2 Y A VP VP sky130_fd_pr__pfet_01v8 ad=0.75 pd=3.5 as=1.35 ps=6.9 w=3 l=0.15
+X3 VP B Y VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=0.75 ps=3.5 w=3 l=0.15
+.ends
+
+.subckt goldwin_not A Y VP VN
+X0 Y A VN VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X1 Y A VP VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=1.35 ps=6.9 w=3 l=0.15
+.ends
+
+.subckt goldwin_dff D CLK Q QI VP VN
+Xgoldwin_nand_0 goldwin_nand_5/Y QI Q VP VN goldwin_nand_0/a_30_0# goldwin_nand
+Xgoldwin_nand_1 goldwin_not_0/Y CLK goldwin_nand_6/Y VP VN goldwin_nand_6/a_30_0#
++ goldwin_nand
+Xgoldwin_nand_2 D CLK goldwin_nand_5/Y VP VN goldwin_nand_5/a_30_0# goldwin_nand
+Xgoldwin_nand_3 Q goldwin_nand_6/Y QI VP VN goldwin_nand_4/a_30_0# goldwin_nand
+Xgoldwin_nand_4 Q goldwin_nand_6/Y QI VP VN goldwin_nand_4/a_30_0# goldwin_nand
+Xgoldwin_nand_5 D CLK goldwin_nand_5/Y VP VN goldwin_nand_5/a_30_0# goldwin_nand
+Xgoldwin_nand_6 goldwin_not_0/Y CLK goldwin_nand_6/Y VP VN goldwin_nand_6/a_30_0#
++ goldwin_nand
+Xgoldwin_not_0 D goldwin_not_0/Y VP VN goldwin_not
+.ends
+

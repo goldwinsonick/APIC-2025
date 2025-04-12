@@ -19,11 +19,6 @@ N 310 -20 390 -20 {lab=Y}
 N 310 30 310 150 {lab=VN}
 N 260 -70 260 -20 {lab=#net1}
 N 100 -40 100 -30 {lab=#net2}
-N -90 -70 60 -70 {lab=A}
-N -90 110 -60 110 {lab=B}
-N -60 -0 -60 110 {lab=B}
-N -60 -0 60 -0 {lab=B}
-N -40 -70 -40 70 {lab=A}
 N -60 110 100 110 {lab=B}
 N 100 70 100 110 {lab=B}
 N 100 70 130 70 {lab=B}
@@ -39,6 +34,11 @@ N 170 70 170 100 {lab=VN}
 N -0 70 -0 100 {lab=VN}
 N 100 -0 110 -0 {lab=VP}
 N 110 -120 110 -0 {lab=VP}
+N -90 110 -60 110 {lab=B}
+N -60 -70 -60 110 {lab=B}
+N -60 -70 60 -70 {lab=B}
+N -90 -0 60 -0 {lab=A}
+N -40 0 -40 70 {lab=A}
 C {sky130_fd_pr/nfet_01v8.sym} -20 70 0 0 {name=M1
 W=1
 
@@ -82,7 +82,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {ipin.sym} -90 -70 0 0 {name=p1 lab=A
+C {ipin.sym} -90 0 0 0 {name=p1 lab=A
 }
 C {ipin.sym} -90 110 0 0 {name=p2 lab=B}
 C {opin.sym} 390 -20 0 0 {name=p3 lab=Y}

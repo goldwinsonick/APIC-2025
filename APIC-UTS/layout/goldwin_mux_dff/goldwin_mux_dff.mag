@@ -1,0 +1,80 @@
+magic
+tech sky130A
+timestamp 1744476560
+<< nwell >>
+rect -60 305 0 645
+rect 2900 305 2960 645
+<< metal1 >>
+rect -60 650 0 680
+rect 2900 650 2960 680
+rect -40 285 0 295
+rect 2900 285 2940 295
+rect -40 265 20 285
+rect 1575 265 1615 285
+rect 2880 265 2940 285
+rect -40 255 0 265
+rect 2900 255 2940 265
+rect -40 215 0 225
+rect 1615 220 1655 225
+rect -40 195 20 215
+rect -40 185 0 195
+rect 1615 190 1620 220
+rect 1650 190 1655 220
+rect 2900 215 2940 225
+rect 2880 195 2940 215
+rect 1615 185 1655 190
+rect 2900 185 2940 195
+rect -40 145 0 155
+rect -40 125 20 145
+rect -40 115 0 125
+rect -40 75 0 85
+rect 1615 80 1655 85
+rect 1615 75 1620 80
+rect -40 55 1620 75
+rect -40 45 0 55
+rect 1615 50 1620 55
+rect 1650 50 1655 80
+rect 1615 45 1655 50
+rect -60 0 0 30
+rect 2900 0 2960 30
+<< via1 >>
+rect 1620 190 1650 220
+rect 1620 50 1650 80
+<< metal2 >>
+rect 1615 220 1655 225
+rect 1615 190 1620 220
+rect 1650 190 1655 220
+rect 1615 185 1655 190
+rect 1625 85 1645 185
+rect 1615 80 1655 85
+rect 1615 50 1620 80
+rect 1650 50 1655 80
+rect 1615 45 1655 50
+use goldwin_dff  goldwin_dff_0 ../goldwin_dff
+timestamp 1744474457
+transform 1 0 1655 0 1 0
+box -60 0 1245 680
+use goldwin_mux  goldwin_mux_0 ../goldwin_mux
+timestamp 1744467260
+transform 1 0 60 0 1 0
+box -60 0 1535 680
+<< labels >>
+flabel metal1 -40 45 0 85 1 FreeSans 200 0 0 -120 CLK
+port 1 n
+flabel metal1 -40 115 0 155 1 FreeSans 200 0 0 -120 B
+port 3 n
+flabel metal1 -40 185 0 225 1 FreeSans 200 0 0 -120 A
+port 2 n
+flabel metal1 -40 255 0 295 1 FreeSans 200 0 0 -120 S
+port 4 n
+flabel metal1 2900 255 2940 295 1 FreeSans 200 0 0 -120 Q
+port 6 n
+flabel metal1 2900 185 2940 225 1 FreeSans 200 0 0 -120 QI
+port 7 n
+flabel metal1 2920 0 2940 30 1 FreeSans 200 0 0 -120 VN
+port 9 n
+flabel metal1 2920 650 2940 680 1 FreeSans 200 0 0 -120 VP
+port 8 n
+flabel metal1 1585 265 1605 285 1 FreeSans 200 0 0 0 D
+port 5 n
+<< end >>

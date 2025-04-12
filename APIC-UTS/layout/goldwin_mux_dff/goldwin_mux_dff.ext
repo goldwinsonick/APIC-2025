@@ -1,0 +1,171 @@
+timestamp 1744475337
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use goldwin_mux goldwin_mux_0 1 0 120 0 1 0
+use goldwin_dff goldwin_dff_0 1 0 3310 0 1 0
+port "VN" 9 5840 0 5880 60 m1
+port "B" 3 -80 230 0 310 m1
+port "QI" 7 5800 370 5880 450 m1
+port "CLK" 1 -80 90 0 170 m1
+port "A" 2 -80 370 0 450 m1
+port "D" 5 3170 530 3210 570 m1
+port "Q" 6 5800 510 5880 590 m1
+port "S" 4 -80 510 0 590 m1
+port "VP" 8 5840 1300 5880 1360 m1
+node "VN" 0 65.2427 5840 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 360 0 0 0 0 0 0 0 0 0 0
+node "m1_n120_0#" 0 59.0747 -120 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 360 0 0 0 0 0 0 0 0 0 0
+node "B" 0 43.3893 -80 230 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8000 400 0 0 0 0 0 0 0 0 0 0
+node "QI" 0 55.5801 5800 370 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8000 400 0 0 0 0 0 0 0 0 0 0
+node "CLK" 12 1683.82 -80 90 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148400 7340 20800 960 0 0 0 0 0 0 0 0
+node "A" 0 43.3893 -80 370 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8000 400 0 0 0 0 0 0 0 0 0 0
+node "D" 0 42.5259 3170 530 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3200 240 0 0 0 0 0 0 0 0 0 0
+node "Q" 0 49.2087 5800 510 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8000 400 0 0 0 0 0 0 0 0 0 0
+node "S" 0 49.2087 -80 510 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8000 400 0 0 0 0 0 0 0 0 0 0
+node "VP" 0 54.9283 5840 1300 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 360 0 0 0 0 0 0 0 0 0 0
+node "m1_n120_1300#" 0 54.9283 -120 1300 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 360 0 0 0 0 0 0 0 0 0 0
+node "w_5800_610#" 5383 244.8 5800 610 nw 0 0 0 0 81600 1600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n120_610#" 5383 244.8 -120 610 nw 0 0 0 0 81600 1600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "QI" "VN" 9.77778
+cap "w_5800_610#" "Q" 10.4678
+cap "B" "CLK" 43.7333
+cap "VP" "Q" 4.63158
+cap "w_n120_610#" "m1_n120_0#" 1.59487
+cap "CLK" "D" 8.18605
+cap "m1_n120_1300#" "m1_n120_0#" 1.36434
+cap "QI" "Q" 43.7333
+cap "m1_n120_1300#" "w_n120_610#" 16.0057
+cap "w_5800_610#" "VP" 16.0057
+cap "w_5800_610#" "VN" 1.59487
+cap "CLK" "m1_n120_0#" 44
+cap "B" "A" 43.7333
+cap "S" "A" 43.7333
+cap "VN" "VP" 1.36434
+cap "w_n120_610#" "S" 10.4678
+cap "m1_n120_1300#" "S" 4.63158
+cap "goldwin_mux_0/goldwin_or_0/A" "goldwin_mux_0/goldwin_not_0/VP" 0.850887
+cap "goldwin_mux_0/goldwin_and_1/a_30_540#" "goldwin_mux_0/B" -3.14821
+cap "CLK" "goldwin_mux_0/goldwin_and_2/a_30_0#" 0.00310187
+cap "goldwin_mux_0/goldwin_not_0/VN" "goldwin_mux_0/B" -242.776
+cap "goldwin_mux_0/goldwin_not_0/Y" "goldwin_mux_0/B" -3.06721
+cap "goldwin_mux_0/S" "goldwin_mux_0/B" -1.02484
+cap "goldwin_mux_0/goldwin_and_1/a_30_540#" "CLK" 28.4917
+cap "goldwin_mux_0/B" "goldwin_mux_0/goldwin_or_0/A" -1.63215
+cap "goldwin_mux_0/goldwin_and_1/a_30_0#" "goldwin_mux_0/B" -2.28187
+cap "goldwin_mux_0/goldwin_not_0/VN" "CLK" 730.676
+cap "goldwin_mux_0/goldwin_not_0/Y" "CLK" 28.5956
+cap "goldwin_mux_0/B" "goldwin_mux_0/A" -1.02484
+cap "goldwin_mux_0/S" "CLK" 4.66983
+cap "goldwin_mux_0/goldwin_and_1/a_30_540#" "goldwin_mux_0/goldwin_not_0/VN" -10.4615
+cap "goldwin_mux_0/goldwin_or_0/A" "CLK" 17.808
+cap "goldwin_mux_0/goldwin_and_1/a_30_0#" "CLK" 24.719
+cap "goldwin_mux_0/goldwin_not_0/Y" "goldwin_mux_0/goldwin_not_0/VN" -10.4615
+cap "goldwin_mux_0/goldwin_not_0/VN" "goldwin_mux_0/S" -2.72627
+cap "CLK" "goldwin_mux_0/A" 4.47493
+cap "goldwin_mux_0/goldwin_not_0/VN" "goldwin_mux_0/goldwin_and_1/a_30_0#" -8.84938
+cap "goldwin_mux_0/goldwin_not_0/VN" "goldwin_mux_0/goldwin_or_0/A" -6.36147
+cap "goldwin_mux_0/goldwin_not_0/VN" "goldwin_mux_0/goldwin_not_0/VP" -2.95921
+cap "goldwin_mux_0/goldwin_not_0/VN" "goldwin_mux_0/A" -2.16324
+cap "goldwin_mux_0/goldwin_not_0/Y" "goldwin_mux_0/goldwin_not_0/VP" 0.922755
+cap "goldwin_mux_0/S" "goldwin_mux_0/goldwin_not_0/VP" 13.2006
+cap "goldwin_mux_0/B" "CLK" 367.344
+cap "goldwin_mux_0/S" "goldwin_mux_0/A" 0.538847
+cap "goldwin_mux_0/goldwin_not_0/Y" "goldwin_mux_0/A" 0.431302
+cap "goldwin_mux_0/VN" "goldwin_mux_0/goldwin_and_2/a_30_0#" -10.6859
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/goldwin_or_0/a_30_0#" 34.3562
+cap "goldwin_dff_0/goldwin_nand_6/Y" "goldwin_mux_0/goldwin_or_0/A" 0.0298502
+cap "goldwin_mux_0/goldwin_or_0/A" "goldwin_mux_0/VN" -42.7813
+cap "goldwin_mux_0/goldwin_or_0/B" "goldwin_mux_0/VP" -0.047969
+cap "goldwin_dff_0/goldwin_not_0/Y" "goldwin_mux_0/goldwin_or_0/B" 0.0427443
+cap "goldwin_mux_0/goldwin_or_0/A" "goldwin_mux_0/VP" 4.91019
+cap "goldwin_dff_0/goldwin_not_0/Y" "goldwin_mux_0/goldwin_or_0/A" 0.496136
+cap "goldwin_mux_0/VN" "goldwin_mux_0/goldwin_or_0/a_30_0#" -14.4058
+cap "goldwin_mux_0/VP" "goldwin_mux_0/goldwin_or_0/a_30_0#" -0.0861394
+cap "goldwin_mux_0/goldwin_and_2/a_30_540#" "goldwin_mux_0/goldwin_or_0/A" -0.334554
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/VN" 831.366
+cap "goldwin_mux_0/goldwin_or_0/B" "goldwin_mux_0/Y" 0.0456321
+cap "goldwin_mux_0/Y" "goldwin_mux_0/goldwin_or_0/A" 5.40855
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/VP" 23.7667
+cap "goldwin_mux_0/S" "goldwin_mux_0/goldwin_or_0/A" -0.131061
+cap "goldwin_mux_0/B" "goldwin_mux_0/goldwin_or_0/A" -0.780781
+cap "goldwin_mux_0/VN" "goldwin_mux_0/VP" -20.7767
+cap "goldwin_mux_0/goldwin_or_0/A" "goldwin_mux_0/goldwin_and_2/a_30_0#" -0.233152
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/goldwin_and_2/a_30_540#" 42.0949
+cap "goldwin_mux_0/goldwin_or_0/B" "goldwin_mux_0/goldwin_or_0/A" -0.0296585
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/S" 7.87901
+cap "goldwin_mux_0/goldwin_or_0/B" "goldwin_mux_0/goldwin_or_0/a_30_0#" -7.10543e-15
+cap "goldwin_mux_0/goldwin_and_2/a_30_540#" "goldwin_mux_0/VN" -18.8001
+cap "goldwin_mux_0/goldwin_or_0/A" "goldwin_mux_0/goldwin_or_0/a_30_0#" -5.68434e-14
+cap "goldwin_mux_0/goldwin_or_0/a_30_540#" "goldwin_dff_0/CLK" 2.28862
+cap "goldwin_mux_0/B" "goldwin_mux_0/A" 0.0633559
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/B" 72.6316
+cap "goldwin_mux_0/S" "goldwin_mux_0/VN" -4.91531
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/goldwin_and_2/a_30_0#" 28.1325
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/goldwin_or_0/B" 83.3248
+cap "goldwin_mux_0/goldwin_or_0/a_30_540#" "goldwin_mux_0/VN" -1.82756
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/goldwin_or_0/A" 54.7634
+cap "goldwin_mux_0/B" "goldwin_mux_0/VN" -47.0355
+cap "goldwin_mux_0/goldwin_or_0/B" "goldwin_mux_0/VN" -48.2095
+cap "goldwin_dff_0/goldwin_nand_5/a_30_0#" "goldwin_dff_0/CLK" 0.489137
+cap "goldwin_mux_0/goldwin_or_0/a_30_0#" "goldwin_mux_0/VN" -6.55121
+cap "goldwin_mux_0/goldwin_or_0/B" "goldwin_dff_0/CLK" 5.58033
+cap "goldwin_mux_0/VP" "goldwin_mux_0/VN" -20.6269
+cap "goldwin_mux_0/VP" "goldwin_mux_0/goldwin_or_0/a_30_0#" 2.43672
+cap "goldwin_mux_0/goldwin_or_0/a_30_0#" "goldwin_dff_0/goldwin_nand_6/Y" 0.123269
+cap "goldwin_mux_0/VN" "goldwin_dff_0/goldwin_nand_6/Y" 0.297352
+cap "goldwin_mux_0/VN" "goldwin_dff_0/CLK" 388.184
+cap "goldwin_mux_0/goldwin_or_0/a_30_0#" "goldwin_dff_0/CLK" 19.8019
+cap "goldwin_mux_0/goldwin_and_2/a_30_540#" "goldwin_dff_0/CLK" 0.596401
+cap "goldwin_dff_0/goldwin_not_0/Y" "goldwin_mux_0/VP" 1.26757
+cap "goldwin_dff_0/goldwin_not_0/Y" "goldwin_dff_0/CLK" 7.73842
+cap "goldwin_mux_0/Y" "goldwin_mux_0/goldwin_or_0/A" 6.02864
+cap "goldwin_dff_0/CLK" "goldwin_dff_0/goldwin_nand_6/a_30_0#" 1.93566
+cap "goldwin_mux_0/VP" "goldwin_dff_0/CLK" 23.3962
+cap "goldwin_dff_0/CLK" "goldwin_dff_0/goldwin_nand_6/Y" 9.96968
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/goldwin_and_2/B" 0.168391
+cap "goldwin_mux_0/Y" "goldwin_mux_0/goldwin_or_0/B" 0.497029
+cap "goldwin_dff_0/CLK" "goldwin_dff_0/goldwin_nand_4/A" 0.0523967
+cap "goldwin_dff_0/CLK" "goldwin_dff_0/goldwin_nand_5/Y" 0.353191
+cap "goldwin_mux_0/Y" "goldwin_mux_0/VN" -17.9796
+cap "goldwin_mux_0/Y" "goldwin_mux_0/goldwin_or_0/a_30_0#" 15.0103
+cap "goldwin_mux_0/goldwin_and_2/a_30_540#" "goldwin_mux_0/Y" 0.0461298
+cap "goldwin_mux_0/goldwin_and_2/a_30_0#" "goldwin_dff_0/CLK" 0.129465
+cap "goldwin_mux_0/goldwin_or_0/a_30_540#" "goldwin_mux_0/Y" 0.712294
+cap "goldwin_mux_0/Y" "goldwin_dff_0/goldwin_not_0/Y" 12.7561
+cap "goldwin_mux_0/goldwin_or_0/A" "goldwin_dff_0/goldwin_nand_6/Y" 0.0348629
+cap "goldwin_dff_0/CLK" "goldwin_mux_0/goldwin_or_0/A" 0.878565
+cap "goldwin_mux_0/Y" "goldwin_mux_0/VP" 97.4235
+cap "goldwin_mux_0/Y" "goldwin_dff_0/goldwin_nand_6/Y" 0.157561
+cap "goldwin_mux_0/Y" "goldwin_dff_0/CLK" 74.7509
+cap "goldwin_dff_0/Q" "goldwin_mux_0/VP" 0.332207
+cap "goldwin_dff_0/goldwin_nand_5/Y" "goldwin_mux_0/VP" 1.04078
+cap "goldwin_dff_0/VP" "goldwin_dff_0/Q" 16.7435
+cap "goldwin_dff_0/VP" "goldwin_dff_0/VN" -2.95921
+cap "goldwin_dff_0/QI" "goldwin_dff_0/VP" 1.36783
+cap "goldwin_dff_0/QI" "goldwin_dff_0/Q" 2.66115
+cap "goldwin_dff_0/QI" "goldwin_dff_0/VN" 4.63158
+merge "goldwin_dff_0/VSUBS" "goldwin_mux_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_mux_0/VSUBS" "VSUBS"
+merge "goldwin_dff_0/VN" "VN" -154.106 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360 0 0 0 0 0 0 0 0 0 0
+merge "VN" "goldwin_dff_0/goldwin_not_0/VN"
+merge "goldwin_dff_0/goldwin_not_0/VN" "goldwin_mux_0/VN"
+merge "goldwin_mux_0/VN" "goldwin_mux_0/goldwin_not_0/VN"
+merge "goldwin_mux_0/goldwin_not_0/VN" "m1_n120_0#"
+merge "goldwin_dff_0/VP" "VP" -218.793 0 0 0 0 0 -4080 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360 0 0 0 0 0 0 0 0 0 0
+merge "VP" "w_5800_610#"
+merge "w_5800_610#" "goldwin_dff_0/goldwin_not_0/VP"
+merge "goldwin_dff_0/goldwin_not_0/VP" "goldwin_mux_0/VP"
+merge "goldwin_mux_0/VP" "goldwin_mux_0/goldwin_not_0/VP"
+merge "goldwin_mux_0/goldwin_not_0/VP" "m1_n120_1300#"
+merge "m1_n120_1300#" "w_n120_610#"
+merge "goldwin_dff_0/Q" "Q" -50.2525 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_mux_0/S" "S" -46.3774 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_mux_0/A" "A" -31.3944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_mux_0/B" "B" -52.9417 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_dff_0/CLK" "CLK" -882.401 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6400 -320 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_dff_0/QI" "QI" -37.9232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_dff_0/D" "goldwin_mux_0/Y" -242.938 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_mux_0/Y" "D"

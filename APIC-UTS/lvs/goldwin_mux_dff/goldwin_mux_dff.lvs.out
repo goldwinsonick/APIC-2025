@@ -1,0 +1,227 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: goldwin_and                     |Circuit 2: goldwin_and                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: goldwin_and                     |Circuit 2: goldwin_and                     
+-------------------------------------------|-------------------------------------------
+VP                                         |VP                                         
+A                                          |A                                          
+B                                          |B                                          
+Y                                          |Y                                          
+VN                                         |VN                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes goldwin_and and goldwin_and are equivalent.
+
+Subcircuit summary:
+Circuit 1: goldwin_or                      |Circuit 2: goldwin_or                      
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: goldwin_or                      |Circuit 2: goldwin_or                      
+-------------------------------------------|-------------------------------------------
+VP                                         |VP                                         
+B                                          |B                                          
+A                                          |A                                          
+Y                                          |Y                                          
+VN                                         |VN                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes goldwin_or and goldwin_or are equivalent.
+
+Subcircuit summary:
+Circuit 1: goldwin_not                     |Circuit 2: goldwin_not                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: goldwin_not                     |Circuit 2: goldwin_not                     
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VN                                         |VN                                         
+VP                                         |VP                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes goldwin_not and goldwin_not are equivalent.
+
+Subcircuit summary:
+Circuit 1: goldwin_nand                    |Circuit 2: goldwin_nand                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: goldwin_nand                    |Circuit 2: goldwin_nand                    
+-------------------------------------------|-------------------------------------------
+VP                                         |VP                                         
+A                                          |A                                          
+B                                          |B                                          
+a_30_0#                                    |(no pin, node is net1)                     
+Y                                          |Y                                          
+VN                                         |VN                                         
+---------------------------------------------------------------------------------------
+Cell pin lists for goldwin_nand and goldwin_nand altered to match.
+Device classes goldwin_nand and goldwin_nand are equivalent.
+
+Subcircuit summary:
+Circuit 1: goldwin_mux                     |Circuit 2: goldwin_mux                     
+-------------------------------------------|-------------------------------------------
+goldwin_and (2)                            |goldwin_and (2)                            
+goldwin_or (1)                             |goldwin_or (1)                             
+goldwin_not (1)                            |goldwin_not (1)                            
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: goldwin_mux                     |Circuit 2: goldwin_mux                     
+-------------------------------------------|-------------------------------------------
+VP                                         |VP                                         
+VN                                         |VN                                         
+B                                          |B                                          
+A                                          |A                                          
+Y                                          |Y                                          
+S                                          |S                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes goldwin_mux and goldwin_mux are equivalent.
+
+Flattening instances of goldwin_nand in cell goldwin_dff (0) makes a better match
+Flattening instances of goldwin_nand in cell goldwin_dff (1) makes a better match
+Making another compare attempt.
+
+Class goldwin_dff (0):  Merged 12 parallel devices.
+Subcircuit summary:
+Circuit 1: goldwin_dff                     |Circuit 2: goldwin_dff                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (14->8)            |sky130_fd_pr__nfet_01v8 (8)                
+sky130_fd_pr__pfet_01v8 (14->8)            |sky130_fd_pr__pfet_01v8 (8)                
+goldwin_not (1)                            |goldwin_not (1)                            
+Number of devices: 17                      |Number of devices: 17                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+goldwin_nand_2/sky130_fd_pr__pfet_01v8:2 vs. goldwin_nand:5/sky130_fd_pr__pfet_01v8:M1:
+ w circuit1: 6   circuit2: 3   (delta=66.7%, cutoff=1%)
+goldwin_nand_1/sky130_fd_pr__pfet_01v8:2 vs. goldwin_nand:4/sky130_fd_pr__pfet_01v8:M1:
+ w circuit1: 6   circuit2: 3   (delta=66.7%, cutoff=1%)
+goldwin_nand_2/sky130_fd_pr__pfet_01v8:3 vs. goldwin_nand:5/sky130_fd_pr__pfet_01v8:M2:
+ w circuit1: 6   circuit2: 3   (delta=66.7%, cutoff=1%)
+goldwin_nand_1/sky130_fd_pr__pfet_01v8:3 vs. goldwin_nand:4/sky130_fd_pr__pfet_01v8:M2:
+ w circuit1: 6   circuit2: 3   (delta=66.7%, cutoff=1%)
+goldwin_nand_3/sky130_fd_pr__pfet_01v8:3 vs. goldwin_nand:6/sky130_fd_pr__pfet_01v8:M2:
+ w circuit1: 6   circuit2: 3   (delta=66.7%, cutoff=1%)
+goldwin_nand_3/sky130_fd_pr__pfet_01v8:2 vs. goldwin_nand:6/sky130_fd_pr__pfet_01v8:M1:
+ w circuit1: 6   circuit2: 3   (delta=66.7%, cutoff=1%)
+goldwin_nand_2/sky130_fd_pr__nfet_01v8:0 vs. goldwin_nand:5/sky130_fd_pr__nfet_01v8:M3:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+goldwin_nand_1/sky130_fd_pr__nfet_01v8:0 vs. goldwin_nand:4/sky130_fd_pr__nfet_01v8:M3:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+goldwin_nand_2/sky130_fd_pr__nfet_01v8:1 vs. goldwin_nand:5/sky130_fd_pr__nfet_01v8:M4:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+goldwin_nand_1/sky130_fd_pr__nfet_01v8:1 vs. goldwin_nand:4/sky130_fd_pr__nfet_01v8:M4:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+goldwin_nand_3/sky130_fd_pr__nfet_01v8:0 vs. goldwin_nand:6/sky130_fd_pr__nfet_01v8:M3:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+goldwin_nand_3/sky130_fd_pr__nfet_01v8:1 vs. goldwin_nand:6/sky130_fd_pr__nfet_01v8:M4:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: goldwin_dff                     |Circuit 2: goldwin_dff                     
+-------------------------------------------|-------------------------------------------
+CLK                                        |CLK                                        
+D                                          |D                                          
+VN                                         |VN                                         
+VP                                         |VP                                         
+QI                                         |QI                                         
+Q                                          |Q                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes goldwin_dff and goldwin_dff are equivalent.
+
+Subcircuit summary:
+Circuit 1: goldwin_mux_dff                 |Circuit 2: goldwin_mux_dff                 
+-------------------------------------------|-------------------------------------------
+goldwin_mux (1)                            |goldwin_mux (1)                            
+goldwin_dff (1)                            |goldwin_dff (1)                            
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: goldwin_mux_dff                 |Circuit 2: goldwin_mux_dff                 
+-------------------------------------------|-------------------------------------------
+D                                          |D                                          
+VP                                         |VP                                         
+VN                                         |VN                                         
+A                                          |A                                          
+B                                          |B                                          
+S                                          |S                                          
+CLK                                        |CLK                                        
+Q                                          |Q                                          
+QI                                         |QI                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes goldwin_mux_dff and goldwin_mux_dff are equivalent.
+
+Final result: Circuits match uniquely.
+.
+
+The following cells had property errors:
+ goldwin_dff

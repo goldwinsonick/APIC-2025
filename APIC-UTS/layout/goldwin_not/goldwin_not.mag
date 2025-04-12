@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1744434282
+timestamp 1744448201
 << nwell >>
 rect -105 250 80 590
 << nmos >>
@@ -71,15 +71,15 @@ rect -75 385 -55 455
 rect -75 285 -55 355
 << poly >>
 rect 0 570 15 585
-rect -85 235 -45 240
-rect 0 235 15 270
-rect -85 215 -75 235
-rect -55 215 15 235
-rect -85 210 -45 215
-rect 0 100 15 215
+rect -85 230 -45 235
+rect 0 230 15 270
+rect -85 210 -75 230
+rect -55 210 15 230
+rect -85 205 -45 210
+rect 0 100 15 210
 rect 0 -15 15 0
 << polycont >>
-rect -75 215 -55 235
+rect -75 210 -55 230
 << locali >>
 rect -65 620 -45 625
 rect -65 560 -45 600
@@ -106,16 +106,16 @@ rect 20 355 60 385
 rect 20 285 30 355
 rect 50 285 60 355
 rect 20 280 60 285
-rect 30 245 50 280
-rect -85 235 -45 245
-rect -85 215 -75 235
-rect -55 215 -45 235
-rect -85 205 -45 215
-rect 20 235 60 245
-rect 20 215 30 235
-rect 50 215 60 235
-rect 20 205 60 215
-rect 30 90 50 205
+rect 30 240 50 280
+rect -85 230 -45 240
+rect -85 210 -75 230
+rect -55 210 -45 230
+rect -85 200 -45 210
+rect 20 230 60 240
+rect 20 210 30 230
+rect 50 210 60 230
+rect 20 200 60 210
+rect 30 90 50 200
 rect -85 85 -5 90
 rect -85 15 -75 85
 rect -55 15 -35 85
@@ -129,22 +129,22 @@ rect -65 -30 -45 10
 rect -65 -55 -45 -50
 << viali >>
 rect -65 600 -45 620
-rect -75 215 -55 235
-rect 30 215 50 235
+rect -75 210 -55 230
+rect 30 210 50 230
 rect -65 -50 -45 -30
 << metal1 >>
 rect -105 620 80 625
 rect -105 600 -65 620
 rect -45 600 80 620
 rect -105 595 80 600
-rect -85 235 -45 245
-rect -85 215 -75 235
-rect -55 215 -45 235
-rect -85 205 -45 215
-rect 20 235 60 245
-rect 20 215 30 235
-rect 50 215 60 235
-rect 20 205 60 215
+rect -85 230 -45 240
+rect -85 210 -75 230
+rect -55 210 -45 230
+rect -85 200 -45 210
+rect 20 230 60 240
+rect 20 210 30 230
+rect 50 210 60 230
+rect 20 200 60 210
 rect -105 -30 80 -25
 rect -105 -50 -65 -30
 rect -45 -50 80 -30
@@ -154,8 +154,8 @@ flabel metal1 60 -55 80 -25 1 FreeSans 200 0 0 -120 VN
 port 4 n
 flabel metal1 60 595 80 625 1 FreeSans 200 0 0 -120 VP
 port 3 n
-flabel metal1 -85 205 -45 245 1 FreeSans 200 0 0 -120 A
+flabel metal1 -85 200 -45 240 1 FreeSans 200 0 0 -120 A
 port 1 n
-flabel metal1 20 205 60 245 1 FreeSans 200 0 0 -120 Y
+flabel metal1 20 200 60 240 1 FreeSans 200 0 0 -120 Y
 port 2 n
 << end >>
