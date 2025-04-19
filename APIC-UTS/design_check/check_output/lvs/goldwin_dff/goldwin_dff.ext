@@ -1,0 +1,79 @@
+timestamp 1744474457
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use goldwin_not goldwin_not_0 1 0 210 0 1 110
+use goldwin_nand goldwin_nand_6 1 0 580 0 1 110
+use goldwin_nand goldwin_nand_5 1 0 1080 0 1 110
+use goldwin_nand goldwin_nand_4 1 0 1580 0 1 110
+use goldwin_nand goldwin_nand_3 1 0 1580 0 1 110
+use goldwin_nand goldwin_nand_2 1 0 1080 0 1 110
+use goldwin_nand goldwin_nand_1 1 0 580 0 1 110
+use goldwin_nand goldwin_nand_0 1 0 2080 0 1 110
+port "VN" 6 2410 0 2450 60 m1
+port "CLK" 2 -80 370 0 450 m1
+port "QI" 4 2370 370 2450 450 m1
+port "D" 1 -80 510 0 590 m1
+port "Q" 3 2370 510 2450 590 m1
+port "VP" 5 2410 1300 2450 1360 m1
+node "VN" 0 0 2410 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_490_390#" 0 0 490 390 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "CLK" 0 0 -80 370 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "QI" 0 0 2370 370 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_750_230#" 0 0 750 230 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_330_530#" 0 0 330 530 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "D" 0 0 -80 510 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_1250_510#" 0 0 1250 510 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m1_40_650#" 0 0 40 650 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q" 0 0 2370 510 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VP" 0 0 2410 1300 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n120_610#" 0 0 -120 610 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_0/A" "goldwin_nand_2/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_2/Y" "goldwin_nand_5/Y"
+merge "goldwin_nand_5/Y" "m1_1250_510#"
+merge "goldwin_nand_0/VP" "goldwin_nand_3/VP" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_3/VP" "goldwin_nand_4/VP"
+merge "goldwin_nand_4/VP" "goldwin_nand_1/VP"
+merge "goldwin_nand_1/VP" "goldwin_nand_2/VP"
+merge "goldwin_nand_2/VP" "goldwin_nand_5/VP"
+merge "goldwin_nand_5/VP" "goldwin_nand_6/VP"
+merge "goldwin_nand_6/VP" "goldwin_not_0/VP"
+merge "goldwin_not_0/VP" "VP"
+merge "VP" "w_n120_610#"
+merge "goldwin_nand_0/VN" "goldwin_nand_3/VN" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_3/VN" "goldwin_nand_4/VN"
+merge "goldwin_nand_4/VN" "goldwin_nand_1/VN"
+merge "goldwin_nand_1/VN" "goldwin_nand_2/VN"
+merge "goldwin_nand_2/VN" "goldwin_nand_5/VN"
+merge "goldwin_nand_5/VN" "goldwin_nand_6/VN"
+merge "goldwin_nand_6/VN" "goldwin_not_0/VN"
+merge "goldwin_not_0/VN" "VSUBS"
+merge "VSUBS" "VN"
+merge "goldwin_nand_1/A" "goldwin_nand_6/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_6/A" "goldwin_not_0/Y"
+merge "goldwin_not_0/Y" "m1_330_530#"
+merge "goldwin_nand_0/B" "goldwin_nand_3/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_3/Y" "goldwin_nand_4/Y"
+merge "goldwin_nand_4/Y" "QI"
+merge "goldwin_nand_2/A" "goldwin_nand_5/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_5/A" "goldwin_not_0/A"
+merge "goldwin_not_0/A" "D"
+merge "D" "m1_40_650#"
+merge "goldwin_nand_1/a_30_0#" "goldwin_nand_6/a_30_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_3/B" "goldwin_nand_4/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_4/B" "goldwin_nand_1/Y"
+merge "goldwin_nand_1/Y" "goldwin_nand_6/Y"
+merge "goldwin_nand_6/Y" "m1_750_230#"
+merge "goldwin_nand_2/a_30_0#" "goldwin_nand_5/a_30_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_0/Y" "goldwin_nand_3/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_3/A" "goldwin_nand_4/A"
+merge "goldwin_nand_4/A" "Q"
+merge "goldwin_nand_1/B" "goldwin_nand_2/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_2/B" "goldwin_nand_5/B"
+merge "goldwin_nand_5/B" "goldwin_nand_6/B"
+merge "goldwin_nand_6/B" "m1_490_390#"
+merge "m1_490_390#" "CLK"
+merge "goldwin_nand_3/a_30_0#" "goldwin_nand_4/a_30_0#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

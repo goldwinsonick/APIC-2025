@@ -1,0 +1,67 @@
+* PEX produced on Fri Apr 18 07:54:19 PM CEST 2025 using /foss/tools/osic-multitool/iic-pex.sh with m=2 and s=1
+* NGSPICE file created from goldwin_dff.ext - technology: sky130A
+
+.subckt goldwin_dff D CLK Q QI VP VN
+X0 QI goldwin_nand_6.Y a_1610_110# VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.25 ps=1.5 w=1 l=0.15
+X1 VP goldwin_nand_6.Y QI VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=0.75 ps=3.5 w=3 l=0.15
+X2 a_2110_110# goldwin_nand_5.Y VN VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.45 ps=2.9 w=1 l=0.15
+X3 Q goldwin_nand_5.Y VP VP sky130_fd_pr__pfet_01v8 ad=0.75 pd=3.5 as=1.35 ps=6.9 w=3 l=0.15
+X4 Q QI a_2110_110# VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.25 ps=1.5 w=1 l=0.15
+X5 VP QI Q VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=0.75 ps=3.5 w=3 l=0.15
+X6 a_1110_110# D VN VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.45 ps=2.9 w=1 l=0.15
+X7 goldwin_nand_5.Y D VP VP sky130_fd_pr__pfet_01v8 ad=0.75 pd=3.5 as=1.35 ps=6.9 w=3 l=0.15
+X8 goldwin_not_0.Y D VN VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X9 goldwin_not_0.Y D VP VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=1.35 ps=6.9 w=3 l=0.15
+X10 goldwin_nand_5.Y CLK a_1110_110# VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.25 ps=1.5 w=1 l=0.15
+X11 VP CLK goldwin_nand_5.Y VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=0.75 ps=3.5 w=3 l=0.15
+X12 a_610_110# goldwin_not_0.Y VN VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.45 ps=2.9 w=1 l=0.15
+X13 goldwin_nand_6.Y goldwin_not_0.Y VP VP sky130_fd_pr__pfet_01v8 ad=0.75 pd=3.5 as=1.35 ps=6.9 w=3 l=0.15
+X14 a_1610_110# Q VN VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.45 ps=2.9 w=1 l=0.15
+X15 QI Q VP VP sky130_fd_pr__pfet_01v8 ad=0.75 pd=3.5 as=1.35 ps=6.9 w=3 l=0.15
+X16 goldwin_nand_6.Y CLK a_610_110# VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.25 ps=1.5 w=1 l=0.15
+X17 VP CLK goldwin_nand_6.Y VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=0.75 ps=3.5 w=3 l=0.15
+C0 CLK a_610_110# 0.03624f
+C1 VP goldwin_nand_5.Y 0.84363f
+C2 CLK Q 0.02472f
+C3 Q goldwin_nand_5.Y 0.51529f
+C4 goldwin_not_0.Y goldwin_nand_6.Y 0.08676f
+C5 a_1610_110# goldwin_nand_6.Y 0.03383f
+C6 goldwin_nand_6.Y D 0.18572f
+C7 a_1610_110# QI 0.05569f
+C8 VP Q 1.14148f
+C9 CLK goldwin_not_0.Y 0.274f
+C10 CLK D 0.36798f
+C11 D goldwin_nand_5.Y 0.12274f
+C12 a_2110_110# QI 0.03661f
+C13 QI goldwin_nand_6.Y 0.17099f
+C14 VP goldwin_not_0.Y 0.51295f
+C15 VP D 0.69757f
+C16 CLK goldwin_nand_6.Y 0.3622f
+C17 goldwin_nand_6.Y goldwin_nand_5.Y 0.1456f
+C18 QI goldwin_nand_5.Y 0.37139f
+C19 a_1110_110# goldwin_nand_6.Y 0.03526f
+C20 a_2110_110# Q 0.05569f
+C21 CLK goldwin_nand_5.Y 0.1206f
+C22 VP goldwin_nand_6.Y 0.55037f
+C23 goldwin_nand_6.Y a_610_110# 0.06543f
+C24 VP QI 0.53556f
+C25 goldwin_not_0.Y D 0.26546f
+C26 Q goldwin_nand_6.Y 0.20961f
+C27 a_1110_110# CLK 0.02784f
+C28 a_1110_110# goldwin_nand_5.Y 0.05569f
+C29 QI Q 0.43416f
+C30 VP CLK 0.16549f
+C31 QI VN 0.74191f
+C32 Q VN 0.65199f
+C33 CLK VN 0.88914f
+C34 D VN 0.85144f
+C35 VP VN 6.0398f
+C36 a_2110_110# VN 0.08711f
+C37 a_1610_110# VN 0.08755f
+C38 a_1110_110# VN 0.08572f
+C39 a_610_110# VN 0.08755f
+C40 goldwin_nand_5.Y VN 0.58546f
+C41 goldwin_nand_6.Y VN 0.95282f
+C42 goldwin_not_0.Y VN 0.56489f
+.ends
+

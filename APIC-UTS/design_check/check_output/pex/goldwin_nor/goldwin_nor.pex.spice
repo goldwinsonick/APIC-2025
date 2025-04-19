@@ -1,0 +1,25 @@
+* PEX produced on Fri Apr 18 07:54:15 PM CEST 2025 using /foss/tools/osic-multitool/iic-pex.sh with m=2 and s=1
+* NGSPICE file created from goldwin_nor.ext - technology: sky130A
+
+.subckt goldwin_nor A B Y VP VN
+X0 VN B Y VN sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.25 ps=1.5 w=1 l=0.15
+X1 Y A VN VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.45 ps=2.9 w=1 l=0.15
+X2 a_30_540# A VP VP sky130_fd_pr__pfet_01v8 ad=0.75 pd=3.5 as=1.35 ps=6.9 w=3 l=0.15
+X3 Y B a_30_540# VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=0.75 ps=3.5 w=3 l=0.15
+C0 B A 0.15979f
+C1 Y B 0.11527f
+C2 a_30_540# A 0.02461f
+C3 Y a_30_540# 0.19233f
+C4 A VP 0.07822f
+C5 Y VP 0.04336f
+C6 a_30_540# B 0.04709f
+C7 B VP 0.10514f
+C8 a_30_540# VP 0.21281f
+C9 Y A 0.04694f
+C10 Y VN 0.46916f
+C11 B VN 0.35779f
+C12 A VN 0.43664f
+C13 VP VN 1.28148f
+C14 a_30_540# VN 0.01708f
+.ends
+

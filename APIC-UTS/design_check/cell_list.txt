@@ -1,0 +1,8 @@
+goldwin_not
+goldwin_nand
+goldwin_nor
+goldwin_and
+goldwin_or
+goldwin_mux
+goldwin_dff
+goldwin_mux_dff
