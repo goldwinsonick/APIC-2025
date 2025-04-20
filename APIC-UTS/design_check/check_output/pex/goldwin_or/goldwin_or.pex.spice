@@ -1,4 +1,4 @@
-* PEX produced on Fri Apr 18 07:54:17 PM CEST 2025 using /foss/tools/osic-multitool/iic-pex.sh with m=2 and s=1
+* PEX produced on Sun Apr 20 07:42:42 AM CEST 2025 using /foss/tools/osic-multitool/iic-pex.sh with m=2 and s=1
 * NGSPICE file created from goldwin_or.ext - technology: sky130A
 
 .subckt goldwin_or A B Y VP VN
@@ -8,18 +8,18 @@ X2 Y a_30_0# VN VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.45 ps=2.9 w=1 l=0.15
 X3 a_30_540# B VP VP sky130_fd_pr__pfet_01v8 ad=0.75 pd=3.5 as=1.35 ps=6.9 w=3 l=0.15
 X4 Y a_30_0# VP VP sky130_fd_pr__pfet_01v8 ad=1.5 pd=7 as=1.35 ps=6.9 w=3 l=0.15
 X5 a_30_0# A a_30_540# VP sky130_fd_pr__pfet_01v8 ad=1.35 pd=6.9 as=0.75 ps=3.5 w=3 l=0.15
-C0 A a_30_540# 0.04709f
-C1 A a_30_0# 0.13559f
-C2 B VP 0.07843f
-C3 B a_30_540# 0.02461f
-C4 B a_30_0# 0.0348f
-C5 VP a_30_540# 0.2133f
-C6 a_30_0# VP 0.31021f
-C7 a_30_0# a_30_540# 0.19233f
-C8 A B 0.15979f
-C9 Y VP 0.2378f
-C10 Y a_30_0# 0.09604f
-C11 A VP 0.11002f
+C0 B a_30_540# 0.02461f
+C1 B a_30_0# 0.0348f
+C2 VP a_30_540# 0.2133f
+C3 a_30_0# VP 0.31021f
+C4 a_30_0# a_30_540# 0.19233f
+C5 A B 0.15979f
+C6 Y VP 0.2378f
+C7 Y a_30_0# 0.09604f
+C8 A VP 0.11002f
+C9 A a_30_540# 0.04709f
+C10 A a_30_0# 0.13559f
+C11 B VP 0.07843f
 C12 Y VN 0.37783f
 C13 A VN 0.32546f
 C14 B VN 0.44408f

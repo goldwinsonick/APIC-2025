@@ -30,7 +30,7 @@ VS S VN DC 0 pulse(0 1.8 20n 100p 100p 20n 40n)
 * --- Simulation ---
 .control
 run
-write tb_goldwin_mux_dff.raw
+write wave/full_v1.raw
 plot v(CLK)+12 v(A)+10 v(B)+8 v(S)+6 v(D)+4 v(Q)+2 v(QI)
 print tsu thold tCQ tperiod fmax
 

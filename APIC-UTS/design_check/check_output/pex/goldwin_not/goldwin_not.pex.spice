@@ -1,4 +1,4 @@
-* PEX produced on Fri Apr 18 07:54:13 PM CEST 2025 using /foss/tools/osic-multitool/iic-pex.sh with m=2 and s=1
+* PEX produced on Sun Apr 20 07:42:38 AM CEST 2025 using /foss/tools/osic-multitool/iic-pex.sh with m=2 and s=1
 * NGSPICE file created from goldwin_not.ext - technology: sky130A
 
 .subckt goldwin_not A Y VP VN

@@ -1,8 +1,6 @@
-goldwin_not
-goldwin_nand
-goldwin_nor
-goldwin_and
-goldwin_or
-goldwin_mux
-goldwin_dff
-goldwin_mux_dff
+goldwin_not_v2
+goldwin_nand_v2
+goldwin_mux_v2
+goldwin_dff_v2
+goldwin_mux_dff_v2
+

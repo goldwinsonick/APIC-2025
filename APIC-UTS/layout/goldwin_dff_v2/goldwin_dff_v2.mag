@@ -1,0 +1,162 @@
+magic
+tech sky130A
+timestamp 1745135597
+<< nwell >>
+rect -60 310 0 705
+rect 565 310 625 705
+rect -60 -735 145 -340
+rect 565 -735 625 -340
+<< metal1 >>
+rect -60 655 0 695
+rect 565 655 625 695
+rect -40 290 0 300
+rect 440 295 480 300
+rect -40 270 20 290
+rect -40 260 0 270
+rect 125 270 165 290
+rect 335 270 375 290
+rect 440 265 445 295
+rect 475 290 480 295
+rect 565 290 605 300
+rect 475 270 505 290
+rect 545 270 605 290
+rect 475 265 480 270
+rect 440 260 480 265
+rect 565 260 605 270
+rect -40 220 0 230
+rect 85 225 125 230
+rect 85 220 90 225
+rect -40 200 90 220
+rect -40 190 0 200
+rect 85 195 90 200
+rect 120 220 125 225
+rect 505 225 545 230
+rect 505 220 510 225
+rect 120 200 165 220
+rect 415 200 510 220
+rect 120 195 125 200
+rect 85 190 125 195
+rect 505 195 510 200
+rect 540 220 545 225
+rect 565 220 605 230
+rect 540 200 605 220
+rect 540 195 545 200
+rect 505 190 545 195
+rect 565 190 605 200
+rect -60 -5 0 35
+rect 270 -25 290 0
+rect 565 -5 625 35
+rect -60 -65 145 -25
+rect 565 -65 625 -25
+rect 20 -225 60 -220
+rect 20 -255 25 -225
+rect 55 -230 60 -225
+rect 440 -225 480 -220
+rect 440 -230 445 -225
+rect 55 -250 165 -230
+rect 415 -250 445 -230
+rect 55 -255 60 -250
+rect 20 -260 60 -255
+rect 440 -255 445 -250
+rect 475 -255 480 -225
+rect 440 -260 480 -255
+rect 85 -295 125 -290
+rect 85 -325 90 -295
+rect 120 -300 125 -295
+rect 120 -320 165 -300
+rect 335 -320 375 -300
+rect 120 -325 125 -320
+rect 85 -330 125 -325
+rect -60 -725 145 -685
+rect 565 -725 625 -685
+<< via1 >>
+rect 340 660 370 690
+rect 25 265 55 295
+rect 445 265 475 295
+rect 90 195 120 225
+rect 510 195 540 225
+rect 25 -255 55 -225
+rect 445 -255 475 -225
+rect 90 -325 120 -295
+rect 510 -325 540 -295
+rect 340 -720 370 -690
+<< metal2 >>
+rect 335 690 375 695
+rect 335 660 340 690
+rect 370 660 375 690
+rect 335 655 375 660
+rect 20 295 60 300
+rect 20 265 25 295
+rect 55 265 60 295
+rect 20 260 60 265
+rect 30 -220 50 260
+rect 85 225 125 230
+rect 85 195 90 225
+rect 120 195 125 225
+rect 85 190 125 195
+rect 20 -225 60 -220
+rect 20 -255 25 -225
+rect 55 -255 60 -225
+rect 20 -260 60 -255
+rect 95 -290 115 190
+rect 85 -295 125 -290
+rect 85 -325 90 -295
+rect 120 -325 125 -295
+rect 85 -330 125 -325
+rect 345 -685 365 655
+rect 440 295 480 300
+rect 440 265 445 295
+rect 475 265 480 295
+rect 440 260 480 265
+rect 450 -220 470 260
+rect 505 225 545 230
+rect 505 195 510 225
+rect 540 195 545 225
+rect 505 190 545 195
+rect 440 -225 480 -220
+rect 440 -255 445 -225
+rect 475 -255 480 -225
+rect 440 -260 480 -255
+rect 515 -290 535 190
+rect 505 -295 545 -290
+rect 505 -325 510 -295
+rect 540 -325 545 -295
+rect 505 -330 545 -325
+rect 335 -690 375 -685
+rect 335 -720 340 -690
+rect 370 -720 375 -690
+rect 335 -725 375 -720
+use goldwin_nand_v2  goldwin_nand_v2_0 ../goldwin_nand_v2
+timestamp 1745127950
+transform 1 0 420 0 -1 -90
+box -65 -65 145 645
+use goldwin_nand_v2  goldwin_nand_v2_1
+timestamp 1745127950
+transform 1 0 210 0 -1 -90
+box -65 -65 145 645
+use goldwin_nand_v2  goldwin_nand_v2_2
+timestamp 1745127950
+transform 1 0 420 0 1 60
+box -65 -65 145 645
+use goldwin_nand_v2  goldwin_nand_v2_3
+timestamp 1745127950
+transform 1 0 210 0 1 60
+box -65 -65 145 645
+use goldwin_not_v2  goldwin_not_v2_0 ../goldwin_not_v2
+timestamp 1745127221
+transform 1 0 65 0 1 60
+box -65 -65 80 645
+<< labels >>
+flabel metal1 -40 260 0 300 1 FreeSans 200 0 0 0 D
+port 1 n
+flabel metal1 -40 190 0 230 1 FreeSans 200 0 0 0 CLK
+port 2 n
+flabel metal1 565 260 605 300 1 FreeSans 200 0 0 0 QI
+port 4 n
+flabel metal1 565 190 605 230 1 FreeSans 200 0 0 0 Q
+port 3 n
+flabel metal1 605 655 625 695 1 FreeSans 200 0 0 0 VP
+port 5 n
+flabel metal1 605 -5 625 35 1 FreeSans 200 0 0 0 VN
+port 6 n
+<< end >>

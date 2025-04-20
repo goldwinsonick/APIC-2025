@@ -1,0 +1,207 @@
+timestamp 1745132050
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use goldwin_not_v2 goldwin_not_v2_0 1 0 130 0 1 130
+use goldwin_nand_v2 goldwin_nand_v2_3 1 0 130 0 -1 -170
+use goldwin_nand_v2 goldwin_nand_v2_1 1 0 420 0 1 130
+use goldwin_nand_v2 goldwin_nand_v2_0 1 0 550 0 -1 -170
+parameters sky130_fd_pr__res_iso_pw l=l w=w
+port "D" 4 840 -650 920 -570 m1
+port "B" 2 -80 -650 0 -570 m1
+port "VN" 6 930 0 970 80 m1
+port "A" 1 -80 390 0 470 m1
+port "S" 3 -80 530 0 610 m1
+port "VP" 5 930 1320 970 1400 m1
+node "m1_840_n1440#" 0 51.1206 840 -1440 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9600 400 0 0 0 0 0 0 0 0 0 0
+node "m1_n120_n1440#" 0 48.4911 -120 -1440 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9600 400 0 0 0 0 0 0 0 0 0 0
+node "D" 0 47.4216 840 -650 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8000 400 0 0 0 0 0 0 0 0 0 0
+node "m1_730_n640#" 0 28.4952 730 -640 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 240 0 0 0 0 0 0 0 0 0 0
+node "m1_380_n630#" 0 41.3768 380 -630 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3200 240 0 0 0 0 0 0 0 0 0 0
+node "B" 0 54.5631 -80 -650 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8000 400 0 0 0 0 0 0 0 0 0 0
+node "m1_840_n120#" 0 49.6836 840 -120 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10400 420 0 0 0 0 0 0 0 0 0 0
+node "VN" 0 93.3348 930 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20800 680 0 0 0 0 0 0 0 0 0 0
+node "m1_n120_n120#" 1 112.758 -120 -120 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20800 800 0 0 0 0 0 0 0 0 0 0
+node "A" 1 151.454 -80 390 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19600 980 0 0 0 0 0 0 0 0 0 0
+node "m1_250_550#" 0 20.6152 250 550 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3200 240 0 0 0 0 0 0 0 0 0 0
+node "m1_50_n500#" 4 359.211 50 -500 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 480 51200 2480 0 0 0 0 0 0 0 0
+node "m1_460_530#" 4 419.503 460 530 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 660 51200 2480 0 0 0 0 0 0 0 0
+node "S" 0 35.6306 -80 530 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8000 400 0 0 0 0 0 0 0 0 0 0
+node "VP" 0 83.127 930 1320 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20800 680 0 0 0 0 0 0 0 0 0 0
+node "m1_260_n1430#" 10 820.083 260 -1430 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 480 120000 5920 0 0 0 0 0 0 0 0
+node "m1_n120_1320#" 0 48.3169 -120 1320 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9600 400 0 0 0 0 0 0 0 0 0 0
+node "w_840_n1460#" 6254 284.4 840 -1460 nw 0 0 0 0 94800 1820 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n120_n1460#" 6254 284.4 -120 -1460 nw 0 0 0 0 94800 1820 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_920_n120#" 4880 0 920 -120 rpw 0 0 0 0 0 0 4000 260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_710_630#" 2887 616.2 710 630 nw 0 0 0 0 205400 2100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n120_630#" 6254 284.4 -120 630 nw 0 0 0 0 94800 1820 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_n120_n1440#" "m1_260_n1430#" 10.3776
+cap "B" "m1_n120_n1440#" 4.63158
+cap "B" "m1_730_n640#" 1.12821
+cap "m1_730_n640#" "m1_260_n1430#" 0.323107
+cap "m1_460_530#" "A" 1.0185
+cap "S" "m1_260_n1430#" 0.102639
+cap "w_n120_n1460#" "m1_n120_n1440#" 23.3905
+cap "m1_840_n120#" "m1_840_n1440#" 1.36434
+cap "VN" "D" 2.75
+cap "m1_250_550#" "m1_260_n1430#" 27.9637
+cap "w_840_n1460#" "D" 10.5297
+cap "m1_50_n500#" "A" 68.5934
+cap "w_n120_630#" "m1_n120_1320#" 23.3905
+cap "w_710_630#" "VN" 10.4444
+cap "VP" "m1_260_n1430#" 7.47662
+cap "B" "m1_n120_n120#" 7.04
+cap "m1_n120_n120#" "m1_260_n1430#" 1.00208
+cap "m1_840_n120#" "m1_260_n1430#" 0.119173
+cap "m1_460_530#" "m1_260_n1430#" 247.327
+cap "w_n120_n1460#" "m1_n120_n120#" 1.60682
+cap "w_840_n1460#" "m1_840_n1440#" 23.3905
+cap "m1_n120_n1440#" "m1_n120_n120#" 1.36434
+cap "m1_840_n1440#" "D" 4.63158
+cap "m1_50_n500#" "m1_260_n1430#" 246.791
+cap "m1_n120_1320#" "m1_260_n1430#" 10.3776
+cap "w_840_n1460#" "m1_260_n1430#" 8.44527
+cap "VN" "m1_260_n1430#" 0.201922
+cap "m1_380_n630#" "m1_260_n1430#" 4.39553
+cap "m1_380_n630#" "B" 4.51282
+cap "S" "m1_460_530#" 1.72549
+cap "m1_260_n1430#" "D" 0.436176
+cap "B" "D" 0.988764
+cap "m1_460_530#" "m1_250_550#" 10.2857
+cap "S" "m1_50_n500#" 53.9691
+cap "m1_730_n640#" "VN" 4.19048
+cap "m1_380_n630#" "m1_730_n640#" 5.5
+cap "m1_840_n120#" "m1_n120_n120#" 3.95506
+cap "w_710_630#" "m1_260_n1430#" 20.4404
+cap "w_n120_630#" "m1_260_n1430#" 13.0598
+cap "A" "B" 1.67619
+cap "A" "m1_260_n1430#" 32.7523
+cap "m1_n120_1320#" "S" 4.63158
+cap "m1_50_n500#" "m1_250_550#" 9.96378
+cap "m1_730_n640#" "D" 38.1333
+cap "m1_460_530#" "m1_n120_n120#" 0.353906
+cap "m1_460_530#" "m1_840_n120#" 1.4105
+cap "m1_840_n1440#" "m1_260_n1430#" 5.1849
+cap "m1_50_n500#" "m1_n120_n120#" 26.1479
+cap "m1_n120_1320#" "VP" 1.15789
+cap "m1_50_n500#" "m1_840_n120#" 0.0629193
+cap "m1_n120_1320#" "m1_n120_n120#" 1.36434
+cap "w_n120_630#" "S" 10.5297
+cap "VN" "VP" 8.86822
+cap "S" "A" 43.7333
+cap "m1_460_530#" "m1_50_n500#" 8.78092
+cap "VN" "m1_n120_n120#" 4.63158
+cap "m1_n120_n1440#" "m1_840_n1440#" 0.988764
+cap "m1_840_n120#" "VN" 63.5556
+cap "w_840_n1460#" "m1_840_n120#" 1.60682
+cap "m1_250_550#" "A" 23.4667
+cap "B" "m1_260_n1430#" 1.87101
+cap "m1_460_530#" "VN" 4.33043
+cap "m1_840_n120#" "D" 7.04
+cap "w_710_630#" "VP" 50.6795
+cap "w_n120_630#" "m1_n120_n120#" 1.60682
+cap "A" "m1_n120_n120#" 9.77778
+cap "w_n120_n1460#" "B" 10.5297
+cap "w_n120_n1460#" "m1_260_n1430#" 13.0598
+cap "m1_50_n500#" "VN" 0.0911951
+cap "goldwin_nand_v2_1/Y" "goldwin_nand_v2_3/A" 0.26745
+cap "goldwin_nand_v2_1/a_30_0#" "goldwin_not_v2_0/VN" 1.5299
+cap "goldwin_nand_v2_1/B" "goldwin_nand_v2_3/Y" 1.45552
+cap "goldwin_nand_v2_3/A" "goldwin_not_v2_0/A" 12.407
+cap "goldwin_nand_v2_1/Y" "goldwin_not_v2_0/VP" 17.5072
+cap "goldwin_not_v2_0/A" "goldwin_not_v2_0/VP" 40.9796
+cap "goldwin_not_v2_0/Y" "goldwin_not_v2_0/A" 0.512997
+cap "goldwin_nand_v2_1/Y" "goldwin_nand_v2_1/a_30_0#" 0.75364
+cap "goldwin_nand_v2_1/B" "goldwin_nand_v2_3/A" -0.798105
+cap "goldwin_nand_v2_3/a_30_0#" "goldwin_not_v2_0/VP" 9.85798
+cap "goldwin_nand_v2_1/Y" "goldwin_not_v2_0/VN" 67.8665
+cap "goldwin_not_v2_0/A" "goldwin_not_v2_0/VN" 58.639
+cap "goldwin_nand_v2_0/a_30_0#" "goldwin_not_v2_0/VN" 2.01309
+cap "goldwin_nand_v2_0/Y" "goldwin_nand_v2_3/Y" 8.59547
+cap "goldwin_not_v2_0/Y" "goldwin_nand_v2_3/a_30_0#" 3.0598
+cap "goldwin_nand_v2_3/a_30_0#" "goldwin_not_v2_0/VN" 2.45529
+cap "goldwin_nand_v2_3/A" "goldwin_nand_v2_3/Y" -4.51282
+cap "goldwin_nand_v2_1/Y" "goldwin_not_v2_0/A" 6.29803
+cap "goldwin_nand_v2_3/Y" "goldwin_not_v2_0/VP" 117.013
+cap "goldwin_nand_v2_0/a_30_0#" "goldwin_nand_v2_1/Y" 10.876
+cap "goldwin_nand_v2_0/Y" "goldwin_nand_v2_3/A" -2.11697
+cap "goldwin_not_v2_0/Y" "goldwin_nand_v2_3/Y" 0.0227031
+cap "goldwin_nand_v2_0/Y" "goldwin_not_v2_0/VP" 28.4403
+cap "goldwin_nand_v2_1/B" "goldwin_nand_v2_1/Y" 1.00671
+cap "goldwin_nand_v2_1/a_30_0#" "goldwin_nand_v2_3/Y" 0.164536
+cap "goldwin_nand_v2_3/a_30_0#" "goldwin_not_v2_0/A" 7.81615
+cap "goldwin_nand_v2_1/B" "goldwin_not_v2_0/A" -1.36603
+cap "goldwin_nand_v2_3/Y" "goldwin_not_v2_0/VN" 50.3494
+cap "goldwin_nand_v2_3/A" "goldwin_not_v2_0/VP" 24.0608
+cap "goldwin_nand_v2_0/Y" "goldwin_not_v2_0/VN" 0.97838
+cap "goldwin_nand_v2_1/Y" "goldwin_nand_v2_3/Y" 42.5652
+cap "goldwin_nand_v2_3/Y" "goldwin_not_v2_0/A" 27.865
+cap "goldwin_nand_v2_3/A" "goldwin_not_v2_0/VN" 4.31576
+cap "goldwin_not_v2_0/VN" "goldwin_not_v2_0/VP" 39.4396
+cap "goldwin_nand_v2_0/a_30_0#" "goldwin_nand_v2_3/Y" 0.542938
+cap "goldwin_nand_v2_0/Y" "goldwin_nand_v2_1/Y" 8.46193
+cap "goldwin_nand_v2_0/Y" "goldwin_not_v2_0/A" 0.341149
+cap "goldwin_nand_v2_1/B" "goldwin_nand_v2_3/A" -0.838095
+cap "goldwin_nand_v2_1/Y" "goldwin_not_v2_0/A" -4.06738
+cap "goldwin_not_v2_0/Y" "goldwin_nand_v2_1/Y" 39.4457
+cap "goldwin_not_v2_0/VP" "goldwin_nand_v2_1/a_30_0#" 1.6222
+cap "goldwin_nand_v2_3/a_30_0#" "goldwin_not_v2_0/VP" 0.0254477
+cap "goldwin_nand_v2_1/B" "goldwin_not_v2_0/A" 24.0591
+cap "goldwin_not_v2_0/Y" "goldwin_nand_v2_1/B" 81.8705
+cap "goldwin_not_v2_0/VN" "goldwin_nand_v2_1/a_30_0#" 7.52864
+cap "goldwin_nand_v2_3/A" "goldwin_not_v2_0/A" 1.64892
+cap "goldwin_nand_v2_1/B" "goldwin_nand_v2_3/Y" 1.77705
+cap "goldwin_not_v2_0/VN" "goldwin_not_v2_0/VP" 75.3744
+cap "goldwin_nand_v2_1/Y" "goldwin_nand_v2_1/a_30_0#" 19.3475
+cap "goldwin_not_v2_0/Y" "goldwin_not_v2_0/A" 37.9676
+cap "goldwin_not_v2_0/VN" "goldwin_nand_v2_0/Y" -3.47024
+cap "goldwin_not_v2_0/VP" "goldwin_nand_v2_1/Y" 36.288
+cap "goldwin_not_v2_0/Y" "goldwin_nand_v2_3/Y" 0.242771
+cap "goldwin_not_v2_0/VN" "goldwin_nand_v2_1/Y" 99.8089
+cap "goldwin_nand_v2_1/B" "goldwin_not_v2_0/VP" 27.5819
+cap "goldwin_nand_v2_1/Y" "goldwin_nand_v2_0/a_30_0#" 3.13305
+cap "goldwin_not_v2_0/Y" "goldwin_nand_v2_1/a_30_0#" 0.489324
+cap "goldwin_not_v2_0/Y" "goldwin_nand_v2_3/a_30_0#" 3.0598
+cap "goldwin_nand_v2_1/B" "goldwin_not_v2_0/VN" 47.9037
+cap "goldwin_not_v2_0/Y" "goldwin_not_v2_0/VP" 252.916
+cap "goldwin_not_v2_0/VP" "goldwin_not_v2_0/A" 37.9054
+cap "goldwin_not_v2_0/VP" "goldwin_nand_v2_3/Y" 0.0381414
+cap "goldwin_nand_v2_1/B" "goldwin_nand_v2_1/Y" 40.7544
+cap "goldwin_not_v2_0/Y" "goldwin_not_v2_0/VN" 34.1141
+cap "goldwin_not_v2_0/VN" "goldwin_not_v2_0/A" 71.0417
+cap "goldwin_not_v2_0/VN" "goldwin_nand_v2_3/Y" 2.22368
+merge "goldwin_nand_v2_0/VN" "m1_840_n120#" -650.815 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -960 0 0 0 0 0 0 0 0 0 0
+merge "m1_840_n120#" "goldwin_nand_v2_1/VN"
+merge "goldwin_nand_v2_1/VN" "VN"
+merge "VN" "goldwin_nand_v2_3/VN"
+merge "goldwin_nand_v2_3/VN" "goldwin_not_v2_0/VN"
+merge "goldwin_not_v2_0/VN" "VSUBS"
+merge "VSUBS" "m1_n120_n120#"
+merge "goldwin_nand_v2_0/VP" "m1_840_n1440#" -1352.92 0 0 0 0 0 -9480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7200 -1440 0 0 0 0 0 0 0 0 0 0
+merge "m1_840_n1440#" "w_840_n1460#"
+merge "w_840_n1460#" "goldwin_nand_v2_1/VP"
+merge "goldwin_nand_v2_1/VP" "VP"
+merge "VP" "w_710_630#"
+merge "w_710_630#" "goldwin_nand_v2_3/VP"
+merge "goldwin_nand_v2_3/VP" "m1_n120_n1440#"
+merge "m1_n120_n1440#" "w_n120_n1460#"
+merge "w_n120_n1460#" "goldwin_not_v2_0/VP"
+merge "goldwin_not_v2_0/VP" "m1_260_n1430#"
+merge "m1_260_n1430#" "m1_n120_1320#"
+merge "m1_n120_1320#" "w_n120_630#"
+merge "goldwin_nand_v2_0/A" "goldwin_nand_v2_3/Y" -190.438 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_v2_3/Y" "m1_380_n630#"
+merge "goldwin_nand_v2_3/A" "B" -40.4454 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_v2_3/B" "goldwin_not_v2_0/A" -233.961 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7200 -560 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_not_v2_0/A" "S"
+merge "S" "m1_50_n500#"
+merge "goldwin_nand_v2_1/A" "goldwin_not_v2_0/Y" -282.007 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_not_v2_0/Y" "m1_250_550#"
+merge "goldwin_nand_v2_1/B" "A" -125.466 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_v2_0/Y" "D" -79.0932 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -320 0 0 0 0 0 0 0 0 0 0
+merge "D" "m1_730_n640#"
+merge "goldwin_nand_v2_0/B" "goldwin_nand_v2_1/Y" -288.709 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3600 -320 0 0 0 0 0 0 0 0 0 0
+merge "goldwin_nand_v2_1/Y" "m1_460_530#"

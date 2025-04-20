@@ -1,0 +1,145 @@
+magic
+tech sky130A
+timestamp 1745127221
+<< nwell >>
+rect -65 250 80 645
+<< nmos >>
+rect 0 0 15 100
+<< pmos >>
+rect 0 270 15 570
+<< ndiff >>
+rect -45 85 0 100
+rect -45 15 -35 85
+rect -15 15 0 85
+rect -45 0 0 15
+rect 15 85 60 100
+rect 15 15 30 85
+rect 50 15 60 85
+rect 15 0 60 15
+<< pdiff >>
+rect -45 555 0 570
+rect -45 485 -35 555
+rect -15 485 0 555
+rect -45 455 0 485
+rect -45 385 -35 455
+rect -15 385 0 455
+rect -45 355 0 385
+rect -45 285 -35 355
+rect -15 285 0 355
+rect -45 270 0 285
+rect 15 555 60 570
+rect 15 485 30 555
+rect 50 485 60 555
+rect 15 455 60 485
+rect 15 385 30 455
+rect 50 385 60 455
+rect 15 355 60 385
+rect 15 285 30 355
+rect 50 285 60 355
+rect 15 270 60 285
+<< ndiffc >>
+rect -35 15 -15 85
+rect 30 15 50 85
+<< pdiffc >>
+rect -35 485 -15 555
+rect -35 385 -15 455
+rect -35 285 -15 355
+rect 30 485 50 555
+rect 30 385 50 455
+rect 30 285 50 355
+<< psubdiff >>
+rect -45 -55 -25 -35
+rect -5 -55 60 -35
+<< nsubdiff >>
+rect -45 605 -25 625
+rect -5 605 60 625
+<< psubdiffcont >>
+rect -25 -55 -5 -35
+<< nsubdiffcont >>
+rect -25 605 -5 625
+<< poly >>
+rect 0 570 15 585
+rect 0 235 15 270
+rect -45 230 15 235
+rect -45 210 -35 230
+rect -15 210 15 230
+rect -45 205 15 210
+rect 0 100 15 205
+rect 0 -15 15 0
+<< polycont >>
+rect -35 210 -15 230
+<< locali >>
+rect -25 625 -5 635
+rect -25 560 -5 605
+rect -45 555 -5 560
+rect -45 485 -35 555
+rect -15 485 -5 555
+rect -45 455 -5 485
+rect -45 385 -35 455
+rect -15 385 -5 455
+rect -45 355 -5 385
+rect -45 285 -35 355
+rect -15 285 -5 355
+rect -45 280 -5 285
+rect 20 555 60 560
+rect 20 485 30 555
+rect 50 485 60 555
+rect 20 455 60 485
+rect 20 385 30 455
+rect 50 385 60 455
+rect 20 355 60 385
+rect 20 285 30 355
+rect 50 285 60 355
+rect 20 280 60 285
+rect 30 240 50 280
+rect -45 230 -5 240
+rect -45 210 -35 230
+rect -15 210 -5 230
+rect -45 200 -5 210
+rect 20 230 60 240
+rect 20 210 30 230
+rect 50 210 60 230
+rect 20 200 60 210
+rect 30 90 50 200
+rect -45 85 -5 90
+rect -45 15 -35 85
+rect -15 15 -5 85
+rect -45 10 -5 15
+rect 20 85 60 90
+rect 20 15 30 85
+rect 50 15 60 85
+rect 20 10 60 15
+rect -25 -35 -5 10
+rect -25 -65 -5 -55
+<< viali >>
+rect -25 605 -5 625
+rect -35 210 -15 230
+rect 30 210 50 230
+rect -25 -55 -5 -35
+<< metal1 >>
+rect -65 625 80 635
+rect -65 605 -25 625
+rect -5 605 80 625
+rect -65 595 80 605
+rect -45 230 -5 240
+rect -45 210 -35 230
+rect -15 210 -5 230
+rect -45 200 -5 210
+rect 20 230 60 240
+rect 20 210 30 230
+rect 50 210 60 230
+rect 20 200 60 210
+rect -65 -35 80 -25
+rect -65 -55 -25 -35
+rect -5 -55 80 -35
+rect -65 -65 80 -55
+<< labels >>
+flabel metal1 60 -65 80 -25 1 FreeSans 200 0 0 0 VN
+port 4 n
+flabel metal1 60 595 80 635 1 FreeSans 200 0 0 0 VP
+port 3 n
+flabel metal1 20 200 60 240 1 FreeSans 200 0 0 -120 Y
+port 2 n
+flabel metal1 -45 200 -5 240 1 FreeSans 200 0 0 -120 A
+port 1 n
+<< end >>

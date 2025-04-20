@@ -1,0 +1,106 @@
+magic
+tech sky130A
+timestamp 1745132050
+<< nwell >>
+rect -60 315 0 710
+rect 355 315 485 710
+rect -60 -730 0 -335
+rect 420 -730 480 -335
+<< rpw >>
+rect 460 -60 485 -20
+<< metal1 >>
+rect -60 660 0 700
+rect 355 660 485 700
+rect -40 295 0 305
+rect 230 300 270 305
+rect -40 275 20 295
+rect -40 265 0 275
+rect 125 275 165 295
+rect 230 270 235 300
+rect 265 295 270 300
+rect 265 275 295 295
+rect 265 270 270 275
+rect 230 265 270 270
+rect -40 225 0 235
+rect -40 205 165 225
+rect -40 195 0 205
+rect -60 0 0 40
+rect 355 0 485 40
+rect -30 -20 -10 0
+rect -60 -60 0 -20
+rect 420 -60 485 -20
+rect -40 -295 0 -285
+rect -40 -315 20 -295
+rect 190 -315 230 -295
+rect -40 -325 0 -315
+rect 365 -320 395 -290
+rect 420 -295 460 -285
+rect 400 -315 460 -295
+rect 420 -325 460 -315
+rect -60 -720 0 -680
+rect 420 -720 480 -680
+<< via1 >>
+rect 130 665 160 695
+rect 25 270 55 300
+rect 235 270 265 300
+rect 25 -250 55 -220
+rect 235 -250 265 -220
+rect 130 -715 160 -685
+<< metal2 >>
+rect 125 695 165 700
+rect 125 665 130 695
+rect 160 665 165 695
+rect 125 660 165 665
+rect 20 300 60 305
+rect 20 270 25 300
+rect 55 270 60 300
+rect 20 265 60 270
+rect 30 -215 50 265
+rect 20 -220 60 -215
+rect 20 -250 25 -220
+rect 55 -250 60 -220
+rect 20 -255 60 -250
+rect 135 -680 155 660
+rect 230 300 270 305
+rect 230 270 235 300
+rect 265 270 270 300
+rect 230 265 270 270
+rect 240 -215 260 265
+rect 230 -220 270 -215
+rect 230 -250 235 -220
+rect 265 -250 270 -220
+rect 230 -255 270 -250
+rect 125 -685 165 -680
+rect 125 -715 130 -685
+rect 160 -715 165 -685
+rect 125 -720 165 -715
+use goldwin_nand_v2  goldwin_nand_v2_0 ../goldwin_nand_v2
+timestamp 1745127950
+transform 1 0 275 0 -1 -85
+box -65 -65 145 645
+use goldwin_nand_v2  goldwin_nand_v2_1
+timestamp 1745127950
+transform 1 0 210 0 1 65
+box -65 -65 145 645
+use goldwin_nand_v2  goldwin_nand_v2_3
+timestamp 1745127950
+transform 1 0 65 0 -1 -85
+box -65 -65 145 645
+use goldwin_not_v2  goldwin_not_v2_0 ../goldwin_not_v2
+timestamp 1745127221
+transform 1 0 65 0 1 65
+box -65 -65 80 645
+<< labels >>
+flabel metal1 -40 195 0 235 1 FreeSans 200 0 0 0 A
+port 1 n
+flabel metal1 -40 265 0 305 1 FreeSans 200 0 0 0 S
+port 3 n
+flabel metal1 -40 -325 0 -285 1 FreeSans 200 0 0 0 B
+port 2 n
+flabel metal1 420 -325 460 -285 1 FreeSans 200 0 0 0 D
+port 4 n
+flabel metal1 465 0 485 40 1 FreeSans 200 0 0 0 VN
+port 6 n
+flabel metal1 465 660 485 700 1 FreeSans 200 0 0 0 VP
+port 5 n
+<< end >>
